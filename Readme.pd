@@ -1,0 +1,78 @@
+# 🔐 Cyber Data Cleaning & Visualization Project
+
+## 📌 Overview
+
+This project focuses on cleaning and analyzing a cybersecurity dataset to extract meaningful insights. The goal is to understand data quality, identify patterns, and visualize key features.
+
+---
+
+## 🧰 Tools & Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+
+---
+
+## 🧹 Data Cleaning Steps
+
+* Removed duplicate records
+* Handled missing values
+* Dropped irrelevant features (time-based columns with no variation)
+* Selected appropriate data types for analysis
+
+---
+
+## 📊 Data Visualization
+
+* Severity distribution using count plots
+* Abuse confidence score distribution using histograms
+* Top IP address frequency analysis
+* Boxplots for numeric feature overview
+
+---
+
+## 🧠 Key Insights
+
+* Dataset shows very low variance in numeric features
+* Severity remains constant across all records
+* Abuse confidence score is consistently high (~100)
+* No IP address repetition, indicating lack of frequency patterns
+* Time-related features were removed due to no variation
+
+---
+
+## ⚠️ Conclusion
+
+The dataset lacks diversity and is not suitable for predictive modeling without additional data or feature engineering. However, it serves as a good example for data cleaning and exploratory analysis.
+
+---
+
+## 🚀 Future Work
+
+* Apply feature engineering techniques
+* Use a more diverse dataset for machine learning
+* Build classification models for attack detection
+
+---
+
+## 📁 Project Structure
+
+```
+DCV/
+│
+├── data/
+├── notebooks/
+├── scripts/
+├── pipeline.py
+└── README.md
+```
+
+---
+
+## 👨‍💻 Author
+
+Love Solanki
